@@ -1,0 +1,6 @@
+{
+  "name": "CarbonLedger Trade",
+  "description": "Enterprise Carbon Tax & CBAM Exposure Arbitrage Engine for modeling product-level embodied carbon, cross-border tariff liabilities, and Marginal Abatement Cost Curves.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
