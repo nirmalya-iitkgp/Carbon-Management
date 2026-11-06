@@ -87,20 +87,27 @@ export const GlobalCbamMap: React.FC<GlobalCbamMapProps> = ({
             ))}
           </g>
 
-          {/* Uploaded World Map Silhouette tinted to Industrial Forest Slate */}
-          <image
-            href="/assets/aistudio/image_c6065888.png"
-            x="0"
-            y="0"
-            width="1100"
-            height="650"
-            preserveAspectRatio="none"
-            style={{
-              filter:
-                'invert(1) brightness(0.22) sepia(0.35) hue-rotate(85deg) contrast(1.15)',
-              opacity: 0.92,
-            }}
-          />
+          {/* World map image from Wikimedia Commons; click for source and attribution. */}
+          <a
+            href="https://commons.wikimedia.org/wiki/File:The_World_map.png"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="View The World map.png source on Wikimedia Commons"
+          >
+            <image
+              href="https://commons.wikimedia.org/wiki/Special:FilePath/The_World_map.png"
+              x="0"
+              y="0"
+              width="1100"
+              height="650"
+              preserveAspectRatio="none"
+              style={{
+                filter:
+                  'invert(1) brightness(0.22) sepia(0.35) hue-rotate(85deg) contrast(1.15)',
+                opacity: 0.92,
+              }}
+            />
+          </a>
 
           {/* Trade Route Arcs */}
           {routes.map((route) => {
