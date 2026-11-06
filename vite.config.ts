@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/Carbon-Management/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
